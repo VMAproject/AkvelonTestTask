@@ -1,0 +1,24 @@
+<Context>
+
+    <Resource name="jdbc/mySQL" auth="Container" type="javax.sql.DataSource"
+              username="root"
+              password="root"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/akvelon"
+              maxActive="50"
+              maxIdle="25"
+              minIdle="5"
+              suspectTimeout="60"
+              timeBetweenEvictionRunsMillis="30000"
+              minEvictableIdleTimeMillis="60000"
+              validationQuery="select 1"
+              validationInterval="30000"
+              testOnBorrow="true"
+              removeAbandoned="true"
+              removeAbandonedTimeout="60"
+              abandonWhenPercentageFull="10"
+              maxWait="5000"
+              jdbcInterceptors="ResetAbandonedTimer;StatementFinalizer"
+            />
+</Context>

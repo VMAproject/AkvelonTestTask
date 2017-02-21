@@ -1,0 +1,39 @@
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 5px, 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+th {
+    font-size: 1em;
+    color: white;
+    font: bold;
+    background-color: #00469d;
+    border: 1px solid #00469d;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+th, td {
+    border: 1px solid #00469d;
+    padding: 3px 7px 2px 7px;
+    text-align: left;
+}
+
+td {
+    font-size: 0.9em;
+    color: black;
+    width: 100px;
+    height: 22px;
+}
+
+tr.alt td {
+    color: #000000;
+    background-color: #eaf2d3;
+}
