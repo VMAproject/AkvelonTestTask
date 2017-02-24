@@ -28,6 +28,9 @@ public class Contact {
     @Column(name = "TELEPHONE")
     private long telephone;
 
+    @Column(name = "RATING")
+    private float rating;
+
     @Column(name = "CREATED")
     private Date creationDate;
 

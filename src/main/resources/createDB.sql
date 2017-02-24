@@ -1,0 +1,12 @@
+CREATE SCHEMA akvelon;
+
+CREATE TABLE `contacts` (
+  `id`        INT(11)   NOT NULL AUTO_INCREMENT,
+  `firstname` VARCHAR(30) DEFAULT NULL,
+  `lastname`  VARCHAR(30) DEFAULT NULL,
+  `telephone` INT(11) DEFAULT NULL,
+  `email`     VARCHAR(30) DEFAULT NULL,
+  `created`   TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `rating`    DECIMAL(5, 2) DEFAULT '1.00',
+  PRIMARY KEY (`id`)
+);
