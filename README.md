@@ -11,6 +11,5 @@
 
 -> dataDB.sql
 
-- or to uncomment a line: <beans:prop key="hibernate.hbm2ddl.auto">create</beans:prop>
-
--in the data.xml file
+- or to uncomment line num 45;
+- in the data.xml file
